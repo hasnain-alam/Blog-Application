@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import Appbar from '../components/Appbar'
 import Button from '../components/Button'
-import { CreateBlog, createBlog } from '@rashidziya/medium-common'
+import { CreateBlog } from '@rashidziya/medium-common'
 import axios from 'axios'
 import { BACKEND_URL } from '../backendurl'
 import { useNavigate } from 'react-router-dom'
@@ -14,7 +14,7 @@ const Publish = () => {
 
   const CreatBlogRequest=async()=>{
       try {
-        const res=await axios.post(`${BACKEND_URL}/api/v1/blog`,blog,{
+          await axios.post(`${BACKEND_URL}/api/v1/blog`,blog,{
           headers:{
             Authorization:`Bearer ${localStorage.getItem('token')}`
           },
