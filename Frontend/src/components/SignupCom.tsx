@@ -1,7 +1,7 @@
 import  { useState } from 'react'
 import { Link ,useNavigate} from 'react-router-dom'
 import Labelinput from './Labelinput'
-import { SignupInput , SigninInput} from '@rashidziya/medium-common'
+import { SignupInput } from '@rashidziya/medium-common'
 import Button from './Button'
 import axios from 'axios'
 import { BACKEND_URL } from '../backendurl'
