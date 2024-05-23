@@ -94,3 +94,10 @@ For all the dependencies see package.json file for frontend and backend.
 - **API Integration:** Gained experience in fetching and handling data through APIs.
 - **Data Handling:** Learned to effectively render dynamic data using JavaScript’s `map` function.
 
+## Author
+
+- [@Rashidziya](https://github.com/Rashidziya)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
