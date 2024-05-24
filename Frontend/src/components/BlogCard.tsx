@@ -13,7 +13,7 @@ const BlogCard = ({ name, title, content, publishedDate ,id}: inputType) => {
   return (
     <Link to={`/blog/${id}`}>
       <div className="w-screen">
-      <div className="mx-48 mt-4 px-20">
+      <div className="mx-4 px-6 md:mx-48 mt-4 md:px-20">
         <div className="flex flex-col ">
           <div className="flex ">
             <div className="flex jsutify-center flex-col">

@@ -12,7 +12,7 @@ const Blog = () => {
   const blogs=useRecoilValue(blogatomFamily(id));
   return (
     <div>
-      <Appbar/>
+      <Appbar showSearchBar={false}/>
       <div>  
         {blogs && <FullBlog blog={blogs}/>}
       </div>

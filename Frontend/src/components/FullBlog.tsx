@@ -5,10 +5,10 @@ const FullBlog = ({blog}:{blog:Blog[]}) => {
     const formattedDate=format(new Date(actualBlog.createdAt),'MMM d,yyyyy');
     if(blog){
         return (
-            <div className='grid grid-cols-12 mx-24 gap-6 py-12'>
+            <div className=' mx-8 gap-2 md:grid md:grid-cols-12 md:mx-24 md:gap-6 py-12'>
                 
                 <div className='col-span-8 flex flex-col'>
-                    <div className='text-5xl font-extrabold'>
+                    <div className='text-2xl font-extrabold md:text-5xl md:font-extrabold'>
                         {actualBlog.title}
                     </div>
                     <div className='text-slate-500 my-4'>
@@ -18,8 +18,8 @@ const FullBlog = ({blog}:{blog:Blog[]}) => {
                         {actualBlog.content}
                     </div>                    
                 </div>
-                <div className='col-span-4 '>
-                    <div className='flex flex-col gap-6'>
+                <div className='mt-16 md:col-span-4 md:mt-2 '>
+                    <div className='flex flex-col gap-2 md:gap-6'>
                         <div className='text-slate-600 font-medium'>
                             Author
                         </div>
@@ -49,7 +49,7 @@ const FullBlog = ({blog}:{blog:Blog[]}) => {
 }
 
 const LocalCirlce=()=>{
-    return <div className='bg-slate-200 h-7 w-7 rounded-full '>
+    return <div className='bg-slate-200 w-4 h-4 rounded-full md:h-7 md:w-7 '>
 
     </div>
 }

@@ -28,9 +28,9 @@ const Publish = () => {
   
   return (
     <div>
-         <Appbar/>
+        <Appbar showSearchBar={false}/>
         <div className='flex justify-center '>
-        <div className=' w-6/12 mt-6'>
+        <div className='mt-16 w-10/12 sm:w-6/12 sm:mt-6'>
           <div className='flex flex-col justify-center '>
             <div className='h-10'>
                 <input onChange={(e)=>{

@@ -9,7 +9,7 @@ const Allblogs = () => {
   const {loading,posts}=useBlogs();
   return (
     <div className="overflow-x-hidden">
-      <Appbar/>
+      <Appbar showSearchBar={true}/>
       {loading && <p>Loading blog...</p>}
       <div>
         {posts.map((post)=>{
