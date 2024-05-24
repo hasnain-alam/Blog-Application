@@ -8,7 +8,7 @@ import Appbar from "../components/Appbar";
 const Allblogs = () => {
   const {loading,posts}=useBlogs();
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Appbar/>
       {loading && <p>Loading blog...</p>}
       <div>
