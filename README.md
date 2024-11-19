@@ -28,7 +28,7 @@ https://blog-app-ten-neon.vercel.app/
 ## Run Locally(Backend)
 
 ```bash
-  git clone https://github.com/Rashidziya/Blog-App
+  git clone https://github.com/hasnain-alam
 ```
 Go to the project directory
 
@@ -49,7 +49,7 @@ Start the server
 ## Run Locally(Frontend)
 
 ```bash
-  git clone https://github.com/Rashidziya/Blog-App
+  git clone https://github.com/hasnain-alam
 ```
 Go to the project directory
 
@@ -96,7 +96,7 @@ For all the dependencies see package.json file for frontend and backend.
 
 ## Author
 
-- [@Rashidziya](https://github.com/Rashidziya)
+- [@HasnainAlam](https://github.com/hasnain-alam)
 
 ## License
 
